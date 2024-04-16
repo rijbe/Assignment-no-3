@@ -7,15 +7,24 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/6afa3554a4.js" crossorigin="anonymous"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+
+        .manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        }
         .loader {
             width: 120px;
             height: 120px;
             border-radius: 50%;
             border: 15px solid #FFF;
             border-color: rgb(255, 66, 64);
-            border-right-color: whitesmoke;
+            border-bottom-color: whitesmoke;
             
             box-sizing: border-box;
 
@@ -26,7 +35,7 @@
             border-radius: 50%;
             border: 15px solid #FFF;
             border-color: rgb(73, 210, 147);
-            border-left-color: whitesmoke;
+            border-bottom-color: whitesmoke;
             
             box-sizing: border-box;
 
@@ -50,7 +59,7 @@
             border-radius: 50%;
             border: 15px solid #FFF;
             border-color: rgb(76, 141, 241);
-            border-right-color: whitesmoke;
+            border-bottom-color: whitesmoke;
             
             
             box-sizing: border-box;
@@ -60,7 +69,7 @@
             
     </style>
 </head>
-<body>
+<body class="manrope">
     <header class="container mx-auto">
         <div class="">
             <div class="navbar bg-base-100">
@@ -131,7 +140,7 @@
             <div class="">
                 <div class="space-y-10 lg:m-32">
                     <h1 class="text-5xl font-bold text-center">Professional Hockeys Club</h1>
-                    <p class="lg:w-[600px] mx-auto text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                    <p class="lg:w-[600px] mx-auto text-center">Hockey is believed to date from the earliest civilizations. The Arabs, Greeks, Persians, and Romans each had their own versions, and traces of a stick game played by the Aztec Indians of South America have been found.</p>
                 </div>
             </div>
             <div class="grid grid-cols-1 gap-10 px-20 py-10 lg:grid-cols-4">
@@ -179,7 +188,7 @@
             <div class="">
                 <div class="space-y-10 lg:m-32">
                     <h1 class="text-5xl font-bold text-center">Program Sections</h1>
-                    <p class="lg:w-[600px] mx-auto text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    <p class="lg:w-[600px] mx-auto text-center">Program music, instrumental music that carries some extramusical meaning, some “program” of literary idea, legend, scenic description, or personal drama. It is contrasted with so-called absolute, or abstract, music, in which artistic interest is supposedly confined to abstract constructions in sound.  </p>
                 </div>              
             </div>
             <div class="grid grid-cols-1 gap-10 text-center lg:grid-cols-2">
@@ -187,9 +196,9 @@
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="text-left hero-content text-neutral-content">
                           <div class="">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
+                            <h1 class="mb-5 text-5xl font-bold">Junior Progaram</h1>
+                            <p class="mb-5">William O’Ree was raised in a large family in Fredericton, New Brunswick. He was the youngest of 13 children of parents Rosebud and Harry. O’Ree’s grandparents had come to Canada from the United States through the Underground Railroad to escape slavery.</p>
+                            <button class="text-xl text-white bg-red-500 border-none btn">Regisetr Now</button>
                           </div>
                         </div>
                     </div>            
@@ -197,9 +206,9 @@
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="text-left hero-content text-neutral-content">
                           <div class="">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
+                            <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                            <p class="mb-5">Wickenheiser first started playing ice hockey on a backyard rink built by her father. In 1990 she moved with her family to Calgary and then represented Alberta at the 1991 Canada Winter Games in Charlottetown, Prince Edward Island.</p>
+                            <button class="text-xl text-white bg-red-500 border-none btn">Regisetr Now</button>
                           </div>
                         </div>
                     </div>
@@ -210,9 +219,8 @@
                     <div class="text-left hero-content text-neutral-content">
                       <div class="mt-24 text-left">
                         <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
-                        <p class="w-2/3 mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                        <button class="btn btn-primary">Register Now!</button>
+                        <p class="w-2/3 mb-5">Wickenheiser was a force at the Olympic Games as well. However, despite Canada’s dominance at the world championship in 1997, the team was not guaranteed an Olympic gold at the Games the following year.</p>
+                            <button class="text-xl text-white bg-red-500 border-none btn">Regisetr Now</button>
                       </div>
                     </div>
                 </div>
@@ -222,7 +230,7 @@
             <div class="">
                 <div class="space-y-10 lg:m-32">
                     <h1 class="text-5xl font-bold text-center">Our New Products</h1>
-                    <p class="lg:w-[600px] mx-auto text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.  </p>
+                    <p class="lg:w-[600px] mx-auto text-center">If you’re looking for popular things to sell in 2024, check out these trending products. They could help grow your sales. Snail slime, anyone?</p>
                 </div>              
             </div>
             <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
@@ -353,7 +361,7 @@
             <div class="">
                 <div class="space-y-10 lg:m-32">
                     <h1 class="text-5xl font-bold text-center">Clients Question</h1>
-                    <p class="lg:w-[600px] mx-auto text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.   </p>
+                    <p class="lg:w-[600px] mx-auto text-center">Get the conversation started with the 45 best questions to ask your client to get to know them, reveal new opportunities and hidden risks.</p>
                 </div>              
             </div>
             <div class="">
@@ -484,12 +492,42 @@
                 </div>
             </div>
         </section>
-        <section></section>
-        <section></section>
-    </main>
-    <footer>
-      
         
-    </footer>
+    </main>
+    <footer class="p-10 footer bg-[#131318] text-white">
+        <div class="">
+            <h1 class="text-5xl font-bold">Get in Tuch</h1>
+            <p class="mt-3 ">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+            <span class="space-x-4 text-xl"><i class="m-3 fa-solid fa-phone-volume"></i>+96357002</span>
+           
+           <span class="space-x-4 text-xl "> <i class="m-3 fa-solid fa-envelope"></i> hockeys@support.com</span>                    
+            
+        </div>
+        <nav class="space-y-3">
+          <h6 class="text-2xl text-white footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Leadership</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">News & Article</a>
+          <a class="link link-hover"> Legal Notice</a>
+        </nav> 
+        <nav class="space-y-3">
+            <h6 class="text-2xl text-white footer-title">Support</h6> 
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+            
+          </nav> 
+          <nav class="space-y-3">
+            <h6 class="text-2xl text-white footer-title">Service</h6> 
+            <a class="link link-hover">Academy </a>
+            <a class="link link-hover"> Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+            
+          </nav> 
+      </footer>
 </body>
 </html>
